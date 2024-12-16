@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React from "react";
 import { MdOutlineEmail } from "react-icons/md";
 import { CiLinkedin } from "react-icons/ci";
@@ -19,15 +20,16 @@ const Footer = () => {
       <ul className="text-sm md:text-xl">
         <li className="flex gap-1 items-center">
           <MdOutlineEmail size={20} />
-          myemail@gmail.com
+          mohitsahu1805@gmail.com
         </li>
         <li className="flex gap-1 items-center">
           <CiLinkedin />
-          linkdlin.com/username
+         <a href="https://www.linkedin.com/in/mohit-sahu-9ba97a233?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">Linked in</a>
         </li>
         <li className="flex gap-1 items-center">
           <FaGithub />
-          github.com/username
+          github.com/
+          Sahu-Mohit-14
         </li>
       </ul>
     </div>

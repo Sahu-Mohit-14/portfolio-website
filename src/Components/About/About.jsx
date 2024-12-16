@@ -1,5 +1,6 @@
+/* eslint-disable no-unused-vars */
 import React from "react";
-import AboutImg from "../../assets/7358653-removebg-preview.png";
+import AboutImg from "../../assets/th (11).jpg";
 import { IoArrowForward } from "react-icons/io5";
 const About = () => {
   return (
@@ -18,14 +19,10 @@ const About = () => {
 
               <span className="w-96">
                 <h1 className="text-xl md:text-2xl font-semibold leading-normal">
-                  Frontend developer
+                  Frontend
                 </h1>
                 <p className="text-sm md:text-md leading-tight">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Maiores explicabo deserunt asperiores quasi, vitae blanditiis
-                  perferendis quos consectetur ea harum! Libero aut qui
-                  similique recusandae provident consectetur sed itaque alias
-                  sint ipsa?
+                I have basic knowledge of frontend development, including HTML, CSS, and JavaScript. I am focused on learning how to build simple and responsive user interfaces and improving my skills in creating functional web pages.
                 </p>
               </span>
             </div>
@@ -34,11 +31,10 @@ const About = () => {
 
               <span className="w-96">
                 <h1 className="text-xl md:text-2xl font-semibold leading-normal">
-                  Database developer
+                  Database 
                 </h1>
                 <p className="text-sm md:text-md leading-tight">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Maiores
+                With a foundational understanding of databases, I am familiar with the basics of data storage and management. I have experience working with databases like MongoDB and am focused on learning how to design and optimize databases for efficient data retrieval and performance.
                 </p>
               </span>
             </div>
@@ -47,12 +43,10 @@ const About = () => {
 
               <span className="w-96">
                 <h1 className="text-xl md:text-2xl font-semibold leading-normal">
-                  Backend developer
+                  Backend 
                 </h1>
                 <p className="text-sm md:text-md leading-tight">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Maiores explicabo deserunt asperiores quasi, vitae blanditiis
-                  perferendis
+                I possess basic knowledge of backend development, particularly with Node.js and Express. I am learning how to build server-side applications and manage backend logic to ensure smooth interaction with the frontend.
                 </p>
               </span>
             </div>
