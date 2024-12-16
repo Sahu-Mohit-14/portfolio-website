@@ -6,8 +6,8 @@ const Projects = () => {
   return (
     <div id="Projects" className="p-10 md:p-24 text-white ">
       <h1 className="text-2xl md:text-4xl text-white font-bold">Projects</h1>
+      <img src="banner" alt=""  />
       <div className="py-12 px-8 flex flex-wrap gap-5">
-        <img src="" alt="" />
         <ProjectCard 
           title="Online Restaurant Food Backend"
           main="Built a secure backend for an online food delivery system using Node.js, Express, and MongoDB. Implemented user authentication with JWT and managed orders and restaurant data. "

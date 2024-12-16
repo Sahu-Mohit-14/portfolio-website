@@ -4,10 +4,10 @@ import React from "react";
 import bannerImg from "../../assets/th (8).jpg";
 import secondbannerImg from "../../assets/th (8).jpg";
 
-const ProjectCard = ({ title, main,image }) => {
+const ProjectCard = ({ title, main }) => {
   return (
     <div className="p-3 md:p-6 flex flex-col w-80 bg-[#0c0e19] shadow-xl shadow-slate-900 rounded-2xl">
-      <img className="p-4" src={image} alt="Main banner" />
+      {/* <img className="p-4" src={bannerImg} alt="Main banner" /> */}
       <h3 className="px-4 text-xl md:text-2xl font-bold leading-normal">
         {title}
       </h3>
